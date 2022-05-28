@@ -1,0 +1,23 @@
+
+
+body{
+    /* background-image: url(images/back.jpg);
+    background-size: cover; */
+    background-color: rgb(21, 20, 20);
+  
+}
+
+.logo h4{
+    font-family: 'Pacifico', cursive;
+}
+
+.carousel-inner{
+ height: 520px;
+}
+.carousel-inner img{
+ height: 530px;
+}
+
+.con{
+    box-sizing: border-box;
+}

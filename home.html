@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container bg-dark px-5 py-4">
+
+        <div class="head d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <h4 class="text-white display-6">Mohona</h4>
+            </div>
+
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="Achivements.html">Achivements</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+
+            <div class="btn-group">
+                <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Register</a>
+                <a href="#" class="btn btn-light">Login</a>
+            </div>
+
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content bg-dark text-white">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Register Now</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control bg-dark w-75 border border-warning text-warning" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Full Name</label>
+                              </div>
+                              
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control bg-dark w-75 border border-warning text-warning" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Email or Phone</label>
+                              </div>
+                              
+                            <div class="form-floating mb-3">
+                                <input type="password" class="form-control bg-dark w-75 border border-warning text-warning" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Password</label>
+                              </div>
+
+
+                              <div class="gen">
+                                  <p class="h4">Gender</p>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                      Male
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                    <label class="form-check-label" for="flexRadioDefault2">
+                                      Female
+                                    </label>
+                                  </div>
+                              </div>
+                              <br>
+
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                  I agree with all terms and conditions.
+                                </label>
+                              </div>
+                              
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-warning">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container bg-dark">
+
+
+        <!-- carousel -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/code1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block mb-5">
+                        <h5>JAVA</h5>
+                        <p>A fluent and efficient programming language.</p>
+                        <button class="btn btn-warning">Read more</button>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/code2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block mb-5">
+                        <h5 class="display-3">JavaScript</h5>
+                        <p>An Excellent Server Site Scripting Language.</p>
+                        <button class="btn btn-warning">Read more</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/code3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block mb-5">
+                        <h5>Ethical Hacking</h5>
+                        <p>Learn and protect yourself.</p>
+                        <button class="btn btn-warning">Read more</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container p-5 bg-dark con">
+
+        <p class="display-5 text-center text-white">About Us</p>
+        <hr class="w-25 mx-auto text-white">
+
+        <div class="row d-flex justify-content-around mt-5">
+
+            <div class="col-md-4 col-sm-12 card text-dark bg-warning mb-3" style="max-width: 18rem;">
+                <div class="card-header h3 fw-light text-white text-center">IT Support</div>
+                <div class="card-body text-center">
+                    <img src="images/technical-support.png" alt="IT" height="90">
+                    <h5 class="card-title">Software</h5>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12 card text-dark bg-success mb-3" style="max-width: 18rem;">
+                <div class="card-header h3 fw-light text-white text-center">Web Support</div>
+                <div class="card-body text-center">
+                    <img src="images/technical-support.png" alt="IT" height="90">
+                    <h5 class="card-title">JavaScript</h5>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12 card text-dark bg-danger mb-3" style="max-width: 18rem;">
+                <div class="card-header h3 fw-light text-white text-center">Security Support</div>
+                <div class="card-body text-center">
+                    <img src="images/technical-support.png" alt="IT" height="90">
+                    <h5 class="card-title">kali Linux</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container bg-dark py-4 pb-5">
+
+        <p class="display-5 text-center text-white">Our Goals</p>
+        <hr class="w-25 mx-auto text-white">
+
+        <div class="row d-flex justify-content-around mt-5">
+            <div class="col-md-3 col-sm-12">
+                <div class="card bg-dark text-white border border-warning">
+                    <img src="images/tec1.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Strong Community</h5>
+                        <p class="card-text text-warning">This is a longer card with supporting text below as a natural
+                            lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="card bg-dark text-white border border-warning">
+                    <img src="images/tec1.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Strong Community</h5>
+                        <p class="card-text text-warning">This is a longer card with supporting text below as a natural
+                            lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="card bg-dark text-white border border-warning">
+                    <img src="images/tec1.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Strong Community</h5>
+                        <p class="card-text text-warning">This is a longer card with supporting text below as a natural
+                            lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row d-flex justify-content-around mt-5">
+            <div class="col-md-3 col-sm-12">
+                <div class="card bg-dark text-white border border-warning">
+                    <img src="images/tec1.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Strong Community</h5>
+                        <p class="card-text text-warning">This is a longer card with supporting text below as a natural
+                            lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="card bg-dark text-white border border-warning">
+                    <img src="images/tec1.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Strong Community</h5>
+                        <p class="card-text text-warning">This is a longer card with supporting text below as a natural
+                            lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="card bg-dark text-white border border-warning">
+                    <img src="images/tec1.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Strong Community</h5>
+                        <p class="card-text text-warning">This is a longer card with supporting text below as a natural
+                            lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <div class="container p-5" style="background-color: rgb(29, 27, 27);">
+        <p class="display-6 text-center text-white">Subscribe Here</p>
+        <hr class="w-25 mx-auto text-white">
+
+        <form class="text-center">
+            <div class="my-3">
+                <input type="email" class="form-control bg-dark text-white w-50 mx-auto border border-warning mt-5"
+                    id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Type your email address here...">
+            </div>
+
+            <button type="submit" class="btn btn-warning mx-auto mt-3">Subscribe Now</button>
+        </form>
+    </div>
+
+
+    <div class="container p-5" style="background-color: black;">
+        <p class="display-5 text">Contact Us</p>
+
+        <div class="row section1 d-flex justify-content-between">
+            <div class="contacts col-sm-12 col-md-6">
+                <span class="d-block">Email: saikat.sakib45@gmail.com</span>
+                <span class="d-block">Social Media: facebook.com/demons.king.549</span>
+                <span class="d-block">Instagram: sakibur_rahman_saikat</span>
+                <span class="d-block">Phone: +88017-63088973</span>
+            </div>
+            <address class="col-sm-12 col-md-6 text-end">
+                House-27, Road-8, DIT Project, <br>
+                Merul Badda, Dhaka.
+            </address>
+
+        </div>
+
+        <div class="copyright text-center p-3">
+            <code class="text-warning">Copyright_Sakibur_Rahman_Saikat. All right reserved.</code>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+<!-- 
+smallletter=0;
+capitalletter=0;
+
+while(str!='\0'){
+    for(char x=a;x<=z;x++){
+        if(str[i]==x){
+        small_letter++;
+        continue;
+        }
+    
+    for(char x=A;x<=Z;x++){
+        if(str[i]==x){
+        capital_letter++;
+        continue;
+        }
+} -->
